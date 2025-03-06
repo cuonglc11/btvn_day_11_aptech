@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="form-group">
+        <div class="form-item">
+            <h1>Add Category</h1>
+            <form id="formCategory">
+                <div class="from-category">
+                    <div>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="name" required="true">
+                    </div>
+                    <div>
+                        <label for="fname">Description:</label>
+                        <input type="text" id="discription" name="discription" placeholder="discription"
+                            required="true">
+                    </div>
+                </div>
+
+                <input type="submit" value="Create">
+            </form>
+        </div>
+        <div class="form-item">
+            <h1> Add Product</h1>
+            <form id="formProduct">
+                <div class="input-from">
+                    <div>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="name" required="true">
+                    </div>
+                    <div>
+                        <label for="fname">Price:</label>
+                        <input type="number" id="price" name="price" placeholder="price" required="true">
+                    </div>
+                    <div>
+                        <label for="fname">OldPrice:</label>
+                        <input type="number" id="oldPrice" name="oldPrice" placeholder="OldPrice" required="true">
+                    </div>
+                    <div>
+                        <label for="fname">Category:</label>
+                        <select name="category" id="category" required="true">
+                        </select>
+                    </div>
+                    <div>
+                        <label for="fname">Description:</label>
+                        <input type="text" id="discription" name="discription" placeholder="discription"
+                            required="true">
+                    </div>
+                    <div>
+                        <label for="fname">Image:</label>
+                        <input type="text" id="image" name="image" placeholder="Image" required="true">
+                    </div>
+                </div>
+                <input type="submit" value="Create">
+            </form>
+        </div>
+    </div>
+    <div class="list-categoris" id="listCategoris">
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
